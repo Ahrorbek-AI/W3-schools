@@ -1,0 +1,258 @@
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v21-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+.container{
+    margin: 0 auto;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.s2{
+    border: none;
+    width: 100px;
+    font-family: 'Poppins';
+    display: flex;
+    margin-left: 30px;
+}
+.s2:hover{
+    background-color: green;
+    color: white;
+}
+.s1{
+    border: none;
+    width: 100px;
+    font-family: 'Poppins';
+    display: flex;
+    margin-left: 30px;
+}
+.s1:hover {
+    background-color: green;
+    color: white;
+}
+.sel{
+    display: flex;
+   width: 100px;
+   position: relative;
+   top: 13px;
+}
+.divhead{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+.input1{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 150px;
+    position: relative;
+    top: 20px;
+    left: 380px;
+    height: 25px;
+}
+.fa-magnifying-glass{
+    position: relative;
+    left: 355px;
+    top: 23px;
+    colo
+}
+.a1{
+    color: black;
+    position: relative;
+    top: 23px;
+    left: 400px;
+}
+.plus{
+    position: relative;
+    top: 21px;
+    left: 600px;
+    margin-left: 50px;
+cursor: pointer;
+}
+.plus1{
+    position: relative;
+    top: 21px;
+    left: 600px;
+}
+span{
+    font-family: 'Poppins';
+}
+.fa-quote-left{
+    color: #9763f6;
+    cursor: pointer;
+}
+
+.fa-star{
+    color: #9763f6; 
+    cursor: pointer; 
+}
+.fa-cart-shopping{
+    color: #9763f6;
+    cursor: pointer;
+}
+.nav-item{
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    width: 110px;
+    height: 40px;
+    border: 1px ;
+    color: gray;
+    margin-left: 15px;
+    overflow: hidden;
+}
+.nav{
+    display: flex;
+    width: 1525px;
+    background-color: #282A35;
+}
+.nav-item:hover {
+    background-color:gray ;
+    color:white ;
+}
+.headbut{
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+    left: 1300px;
+}
+
+.b1{
+    color: white;
+    width: 95px;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    position: relative;
+    left: 25px;
+    padding: 7px;
+}
+.b2{
+    color: black;
+    width: 95px; 
+    background-color: #D9EEE1;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    padding: 7px;
+}
+.divhead{
+    height: 40px;
+}
+.nav{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow-y: auto;
+}
+
+/* web of header styles ended */
+.over1{
+    width: 300px;
+    border: 1px solid red;
+    background-color:lightcyan ;
+    height: 600px;
+    overflow-y: auto;
+}
+.sect1{
+    font-family: 'Poppins';
+}
+.bteg{
+    font-family: 'Poppins';
+}
+
+.divh1{
+    font-family: 'Poppins';
+    position: relative;
+    bottom:600px;
+    left: 350px;
+}
+.butt{
+    font-family: 'Poppins';
+    border: none;
+    border-radius: 5px;
+    background-color: #04AA6D;
+    color: white;
+    width: 120px;
+    height: 50px;
+    position: relative;
+    bottom: 600px;
+    left: 350px;
+}
+.butt2{
+    font-family: 'Poppins';
+    border: none;
+    border-radius: 5px;
+    background-color: #04AA6D;
+    color: white;
+    width: 120px;
+    height: 50px;
+    position: relative;
+    bottom: 600px;
+    left: 870px;
+}
+.mal{
+    font-family: 'Poppins';
+    position: relative;
+    bottom: 550px;
+    left: 350px;
+    border: none;
+    background-color: #D9EEE1;
+    width: 730px;
+    padding: 24px;
+}
+.butt3{
+    font-family: 'Poppins';
+    width: 250px;
+    height: 40px;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+.exam{
+    position: relative;
+    bottom: 500px;
+    left: 350px;
+}
+.dh{
+    font-family: 'Poppins';
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.advers{
+    position: relative;
+    bottom: 1050px;
+    left: 1150px;
+    border-left: 1px solid #f1f1f1;
+    padding-left: 100px;
+}
+
+.over1{
+    position: sticky;
+    top: 0px;
+}
+
+
+
+
+
+
+
